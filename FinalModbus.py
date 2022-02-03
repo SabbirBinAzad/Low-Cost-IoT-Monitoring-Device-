@@ -196,7 +196,7 @@ while 1:
         for i in range(0, len(ModbusData)):
             print "Read of Registers" + str(i) + " = " + str(ModbusData[i])
             
-	url = 'http://103.9.185.218/cat_generator/api/add_generator_data'
+	#url = 'Set API'
 
 	params = {
 		'generatorID' : Slave_id,
